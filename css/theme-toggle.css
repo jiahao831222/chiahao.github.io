@@ -1,0 +1,189 @@
+/* Theme Toggle Button */
+#theme-toggle {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+#theme-toggle:hover {
+  opacity: 0.7;
+}
+#theme-toggle i {
+  font-size: 1.2em;
+}
+
+/* ===== Classic (Light) Theme Overrides ===== */
+body:not(.dark-theme) {
+  background-color: #fafafa !important;
+  color: #22272a !important;
+  border-top-color: #cc2a41 !important;
+}
+body:not(.dark-theme) .content {
+  color: #22272a !important;
+}
+body:not(.dark-theme) .content a {
+  color: #22272a !important;
+}
+body:not(.dark-theme) .content a:hover {
+  background-image: linear-gradient(transparent, transparent 4px, rgba(204,42,65,0.4) 4px, rgba(204,42,65,0.4)) !important;
+}
+body:not(.dark-theme) .content a.icon:hover {
+  color: rgba(204,42,65,0.8) !important;
+}
+
+/* Headings */
+body:not(.dark-theme) h1,
+body:not(.dark-theme) h2,
+body:not(.dark-theme) h3,
+body:not(.dark-theme) h4,
+body:not(.dark-theme) h5,
+body:not(.dark-theme) h6,
+body:not(.dark-theme) .posttitle {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) h1 a,
+body:not(.dark-theme) h2 a,
+body:not(.dark-theme) h3 a,
+body:not(.dark-theme) h4 a,
+body:not(.dark-theme) h5 a,
+body:not(.dark-theme) h6 a,
+body:not(.dark-theme) .posttitle a {
+  color: #cc2a41 !important;
+}
+
+/* Meta */
+body:not(.dark-theme) .meta,
+body:not(.dark-theme) .postdate,
+body:not(.dark-theme) .article-tag {
+  color: #666 !important;
+}
+body:not(.dark-theme) .meta a,
+body:not(.dark-theme) .article-tag a {
+  color: #666 !important;
+}
+
+/* Code */
+body:not(.dark-theme) pre,
+body:not(.dark-theme) code {
+  border-color: #666 !important;
+  background-color: #f5f5f5 !important;
+}
+body:not(.dark-theme) .highlight {
+  background: #f5f5f5 !important;
+}
+body:not(.dark-theme) .highlight .btn-copy:hover {
+  color: #cc2a41 !important;
+}
+
+/* Blockquote */
+body:not(.dark-theme) blockquote {
+  color: #cc2a41 !important;
+  border-left-color: #cc2a41 !important;
+}
+body:not(.dark-theme) blockquote:before {
+  color: #cc2a41 !important;
+}
+
+/* Header & Nav - all green (#2bbc8a) to red */
+body:not(.dark-theme) #header,
+body:not(.dark-theme) #footer {
+  color: #22272a !important;
+}
+body:not(.dark-theme) #header a,
+body:not(.dark-theme) #footer a {
+  color: #22272a !important;
+}
+body:not(.dark-theme) #header #title h1 {
+  color: #22272a !important;
+}
+body:not(.dark-theme) #header #nav {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header #nav ul a {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header #nav ul li {
+  border-color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header #nav ul li a {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header #nav ul .icon a {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header #nav ul .icon i {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header #nav ul a:hover {
+  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41) !important;
+}
+
+/* Post header nav */
+body:not(.dark-theme) #header-post #nav {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header-post #nav ul a {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header-post #nav ul a:hover {
+  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41) !important;
+}
+body:not(.dark-theme) #header-post #nav ul li {
+  border-right-color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header-post #menu-icon:hover,
+body:not(.dark-theme) #header-post #menu-icon-tablet:hover,
+body:not(.dark-theme) #header-post #top-icon-tablet:hover,
+body:not(.dark-theme) #header-post .active {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #header-post #toc .toc-level-2:before {
+  color: #cc2a41 !important;
+}
+
+/* Footer post nav */
+body:not(.dark-theme) #footer-post #nav-footer a {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #footer-post #nav-footer a:hover {
+  background-image: linear-gradient(transparent, transparent 5px, #cc2a41 5px, #cc2a41) !important;
+}
+body:not(.dark-theme) #footer-post #actions-footer > * {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) #footer-post #toc-footer .toc-level-2:before {
+  color: #cc2a41 !important;
+}
+
+/* Archive */
+body:not(.dark-theme) .archive-title,
+body:not(.dark-theme) .archive-year {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) .post-list-item a {
+  color: #22272a !important;
+}
+
+/* Article hash links */
+body:not(.dark-theme) .article h1:before,
+body:not(.dark-theme) .article h2:before,
+body:not(.dark-theme) .article h3:before,
+body:not(.dark-theme) .article h4:before,
+body:not(.dark-theme) .article h5:before,
+body:not(.dark-theme) .article h6:before {
+  color: #cc2a41 !important;
+}
+body:not(.dark-theme) article .content h2:before {
+  color: #cc2a41 !important;
+}
+
+/* Search */
+body:not(.dark-theme) .search-input:focus {
+  border-color: #cc2a41 !important;
+}
+
+/* Footer post background */
+body:not(.dark-theme) #footer-post {
+  background-color: #f0f0f0 !important;
+}
+body:not(.dark-theme) #footer-post a {
+  color: #22272a !important;
+}
