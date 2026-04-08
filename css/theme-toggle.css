@@ -187,3 +187,16 @@ body:not(.dark-theme) #footer-post {
 body:not(.dark-theme) #footer-post a {
   color: #22272a !important;
 }
+
+/* Reading Time */
+.reading-time {
+  color: #999;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+.reading-time i {
+  margin-right: 4px;
+}
+body:not(.dark-theme) .reading-time {
+  color: #666;
+}
