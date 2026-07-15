@@ -200,3 +200,13 @@ body:not(.dark-theme) #footer-post a {
 body:not(.dark-theme) .reading-time {
   color: #666;
 }
+
+/* Writing page topic titles - match blockquote color */
+.topic-title {
+  color: #ccffb6;
+  font-weight: bold;
+  font-style: italic;
+}
+body:not(.dark-theme) .topic-title {
+  color: #cc2a41;
+}
